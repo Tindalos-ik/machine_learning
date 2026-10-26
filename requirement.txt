@@ -1,0 +1,22 @@
+# 数值计算与绘图
+numpy
+matplotlib
+pandas
+scikit-learn
+
+# 神经网络（TensorFlow 从 2.16 起支持 Python 3.12）
+tensorflow>=2.16
+
+# Notebook 内核与交互绘图（%matplotlib widget）
+ipykernel
+ipython
+ipywidgets
+ipympl
+
+# 表格、图像与视频导出
+tabulate
+pillow
+imageio[ffmpeg]
+
+# 旧版 Lab10/Lab11 的兼容性说明见 note/环境搭建.md。
+# 此清单暂不安装 pickle5、gym/Box2D 和 pyvirtualdisplay，原因见上述说明。
