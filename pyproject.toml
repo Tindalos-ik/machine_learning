@@ -7,7 +7,9 @@ authors = [
     { name = "tin_101", email = "2837798419@qq.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 machine-learning = "machine_learning:main"
