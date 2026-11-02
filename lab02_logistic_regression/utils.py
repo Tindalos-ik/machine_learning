@@ -56,7 +56,7 @@ def plot_decision_boundary(w, b, X, y):
         # 在网格上计算 z = theta*x
         for i in range(len(u)):
             for j in range(len(v)):
-                z[i, j] = sig(np.dot(map_feature(u[i], v[j]), w) + b)
+                z[i, j] = sig(np.dot(map_feature(u[i], v[j]), w) + b).item()
 
         # 调用 contour 之前务必对 z 进行转置
         z = z.T
