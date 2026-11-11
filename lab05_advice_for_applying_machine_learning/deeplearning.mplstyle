@@ -1,0 +1,124 @@
+# 参见 https://matplotlib.org/stable/tutorials/introductory/customizing.html
+lines.linewidth: 4
+lines.solid_capstyle: butt
+
+legend.fancybox: true
+
+# 非数学文本使用 Verdana，
+# 数学文本使用 Cambria Math
+
+#蓝色（Crayon-Aqua）0096FF
+#深红色 C00000
+#橙色（Apple Orange）FF9300
+#黑色 000000
+#品红色 FF40FF
+#紫色 7030A0
+
+axes.prop_cycle: cycler('color', ['0096FF', 'FF9300', 'FF40FF', '7030A0', 'C00000'])
+#axes.facecolor: f0f0f0 # 灰色
+axes.facecolor: ffffff  # 白色
+axes.labelsize: large
+axes.axisbelow: true
+axes.grid: False
+axes.edgecolor: f0f0f0
+axes.linewidth: 3.0
+axes.titlesize: x-large
+
+patch.edgecolor: f0f0f0
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 1.0
+grid.color: cbcbcb
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+
+savefig.edgecolor: f0f0f0
+savefig.facecolor: f0f0f0
+
+#figure.subplot.left: 0.08
+#figure.subplot.right: 0.95
+#figure.subplot.bottom: 0.07
+
+#figure.facecolor: f0f0f0  # 灰色
+figure.facecolor: ffffff  # 白色
+
+## ***************************************************************************
+## * 字体                                                                    *
+## ***************************************************************************
+## `text.Text` 使用的字体属性。
+## 有关字体属性的更多信息，请参见
+## https://matplotlib.org/api/font_manager_api.html。用于字体匹配的六个字体属性
+## 及其默认值如下。
+##
+## font.family 属性可以指定具体的字体名称（使用 usetex 渲染文本时不支持），
+## 也可以使用以下五种通用字体族之一：
+##
+##     - 'serif'（例如 Times），
+##     - 'sans-serif'（例如 Helvetica），
+##     - 'cursive'（例如 Zapf-Chancery），
+##     - 'fantasy'（例如 Western），以及
+##     - 'monospace'（例如 Courier）。
+## 每个值都有对应的默认字体名称列表
+## （font.serif 等）；使用列表中第一个可用的字体。请注意，
+## 对于 font.serif、font.sans-serif 和 font.monospace，始终使用列表中的
+## 第一个元素（DejaVu 字体），因为 DejaVu 随
+## Matplotlib 一起分发，因此保证可用；其余条目
+## 仅作为其他可能值的示例保留。
+##
+## font.style 属性有三个值：normal（或 roman）、italic
+## 或 oblique。如果 italic 不可用，
+## 则使用 oblique 样式。
+##
+## font.variant 属性有两个值：normal 或 small-caps。对于
+## 可缩放的 TrueType 字体，small-caps 相当于
+## 使用 'smaller' 字号，即当前字号的
+## 约 83%%。
+##
+## font.weight 属性实际上有 13 个值：normal、bold、
+## bolder、lighter、100、200、300、...、900。normal 等同于
+## 400，bold 等同于 700。bolder 和 lighter 是相对于
+## 当前字重的值。
+##
+## font.stretch 属性有 11 个值：ultra-condensed、
+## extra-condensed、condensed、semi-condensed、normal、semi-expanded、
+## expanded、extra-expanded、ultra-expanded、wider 和 narrower。此
+## 属性目前尚未实现。
+##
+## font.size 属性是文本的默认字号，以磅为单位。
+## 标准值为 10 pt。
+##
+## 请注意，font.size 控制默认文本大小。若要配置
+## 刻度标签、坐标轴、标签、标题等特殊文本的大小，请参见坐标轴和刻度的
+## rc 设置。特殊文本大小可以
+## 相对于 font.size 定义，使用以下值：xx-small、x-small、
+## small、medium、large、x-large、xx-large、larger 或 smaller
+
+
+font.family:  sans-serif
+font.style:   normal
+font.variant: normal
+font.weight:  normal
+font.stretch: normal
+font.size:    8.0
+
+font.serif:      DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
+font.sans-serif: Verdana, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+font.cursive:    Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+font.fantasy:    Chicago, Charcoal, Impact, Western, Humor Sans, xkcd, fantasy
+font.monospace:  DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+
+## ***************************************************************************
+## * 文本                                                                    *
+## ***************************************************************************
+## `text.Text` 使用的文本属性。
+## 有关文本属性的更多信息，请参见
+## https://matplotlib.org/api/artist_api.html#module-matplotlib.text
+#text.color: black
+
